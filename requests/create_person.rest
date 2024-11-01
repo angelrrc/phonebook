@@ -5,8 +5,8 @@ POST  http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name": "Nombre de prueba",
-    "number": "123456789"
+    "name": "Otro nombre de prueba",
+    "number": "1234567890"
 }
 
 ###
@@ -23,4 +23,36 @@ Content-Type: application/json
 
 {
     "name": "Nombre de prueba"
+}
+
+###
+POST  http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "No",
+    "number": "123456"
+}
+
+###
+POST  http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Nombre 1"
+}
+###
+POST  http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "number": "123456"
+}
+###
+POST  http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Nombre de prueba",
+    "number": "123"
 }

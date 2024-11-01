@@ -1,0 +1,51 @@
+GET http://localhost:3001/api/persons
+
+###
+
+PUT  http://localhost:3001/api/persons/6724bb6ca159b141a598484e
+Content-Type: application/json
+
+{
+    "name": "Nombre",
+    "number": ""
+}
+
+###
+
+PUT  http://localhost:3001/api/persons/6724bb6ca159b141a598484e
+Content-Type: application/json
+
+{
+    "name": "",
+    "number": "123456"
+}
+
+###
+
+PUT  http://localhost:3001/api/persons/6724bb6ca159b141a598484e
+Content-Type: application/json
+
+{
+    "name": "Na",
+    "number": "123456"
+}
+
+###
+
+PUT  http://localhost:3001/api/persons/6724bb6ca159b141a598484e
+Content-Type: application/json
+
+{
+    "name": "Name Test",
+    "number": "1234"
+}
+
+###
+
+PUT  http://localhost:3001/api/persons/6724bb6ca159b141a598484e
+Content-Type: application/json
+
+{
+    "name": "Name Test",
+    "number": "987654321"
+}
